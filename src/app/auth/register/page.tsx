@@ -9,6 +9,7 @@ import toast from 'react-hot-toast'
 
 export default function RegisterPage() {
   const router = useRouter()
+  // @ts-ignore
   const { setAuth } = useStore()
   const register = useRegister()
   const [showPw, setShowPw] = useState(false)
